@@ -1,0 +1,521 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"therm",
+				"thermal_solver.c"
+			],
+			[
+				"sim",
+				"simple_stats.cc"
+			],
+			[
+				"ChampSi",
+				"ChampSimForkSource\tabc"
+			],
+			[
+				"memory",
+				"memory_system.cc"
+			],
+			[
+				"hmc",
+				"hmc.cc"
+			],
+			[
+				"Cham",
+				"ChampSimForkSource\tabc"
+			],
+			[
+				"controller",
+				"controller.cc"
+			],
+			[
+				"con",
+				"configuration.cc"
+			],
+			[
+				"B",
+				"bankstate.cc"
+			],
+			[
+				"llc",
+				"llc_repl"
+			],
+			[
+				"l2c",
+				"l2c_pref\tabc"
+			],
+			[
+				"l1d",
+				"l1d_pref\tabc"
+			],
+			[
+				"branch",
+				"branch_pred\tabc"
+			],
+			[
+				"branchpre",
+				"branch_pred_type\tabc"
+			],
+			[
+				"vara",
+				"variant_dir\t(SConstruct)"
+			],
+			[
+				"SC",
+				"SConscript\tabc"
+			],
+			[
+				"Addressm",
+				"AddressMapping.cpp"
+			],
+			[
+				"llc_re",
+				"llc_repl_list\tabc"
+			],
+			[
+				"l2c_pre",
+				"l2c_pref_list\tabc"
+			],
+			[
+				"branchpred",
+				"branch_pred_list\tabc"
+			],
+			[
+				"branc",
+				"branch_pred\t(build_champsim.sh)"
+			],
+			[
+				"prefec",
+				"prefetcher\t(Makefile)"
+			],
+			[
+				"SCons",
+				"SConscript\t(SConstruct)"
+			],
+			[
+				"drams",
+				"dramsim3\tabc"
+			],
+			[
+				"Add",
+				"AddOption\tabc"
+			],
+			[
+				"TPDS",
+				"TPDS2015\t(TPDS2015.md)"
+			],
+			[
+				"ISPA2013",
+				"ISPA2013-zhang\t(ISPA2013-zhang.md)"
+			],
+			[
+				"ISLPED",
+				"ISLPED2013\t(ISLPED2013.md)"
+			],
+			[
+				"PACT",
+				"PACT2014\t(PACT2014.md)"
+			],
+			[
+				"IGSC",
+				"IGSC2016\t(IGSC2016.md)"
+			],
+			[
+				"ICCD",
+				"ICCD2017\t(ICCD2017.md)"
+			],
+			[
+				"BIBM",
+				"BIBM2019\tabc"
+			],
+			[
+				"appr",
+				"approach\t(cache_impl.hh)"
+			],
+			[
+				"finis",
+				"finishTranslation"
+			],
+			[
+				"Full",
+				"FullO3CPU"
+			],
+			[
+				"isRe",
+				"isRead\t(packet.hh)"
+			],
+			[
+				"getP",
+				"getPC"
+			],
+			[
+				"tot",
+				"totalInsts"
+			],
+			[
+				"data",
+				"data_pkt"
+			],
+			[
+				"out",
+				"output_file_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "insider.h",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import os\nimport sys\nimport SCons\n\nfrom os.path import basename, dirname, exists, isdir, isfile, join as joinpath\n\nbuild_dir = \"./build\"",
+			"file": "SConstruct",
+			"file_size": 0,
+			"file_write_time": 132543014897335840,
+			"settings":
+			{
+				"buffer_size": 136,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: add",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"package co",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/smartzmz/work/research_project/my_open_sources/insider-va2pa"
+	],
+	"file_history":
+	[
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/SConscript",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim2/SConscript",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/Champsim/inc/dram_interface.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/Champsim/src/dram_interface.cc",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/.gitignore",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim2/DRAMSim.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/dramsim3.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/memory_system.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/memory_system.cc",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/dram_system.cc",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/controller.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/simple_stats.cc",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim2/MultiChannelMemorySystem.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim2/MultiChannelMemorySystem.cpp",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/controller.cc",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/simple_stats.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/command_queue.cc",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim2/MemorySystem.cpp",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim2/MemoryController.cpp",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/dram_system.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/champsim-fork/DRAMSim3/src/configuration.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/axle-zsim-nvmain/src/dramsim_mem_ctrl.h",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/axle-zsim-nvmain/src/dramsim_mem_ctrl.cpp",
+		"/Users/smartzmz/work/research_project/rrm-qnd/workspace/DRAMsim3/src/controller.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/inc/block.h",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/replacement/base_replacement.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/src/block.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/inc/ooo_cpu.h",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/run_champsim_mosaic.sh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/run_mosaic_test.sh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/inc/lpm.h",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/src/lpm.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/src/dram_controller.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/replacement/llc_replacement.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/src/cache.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/inc/cache.h",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/prefetcher/kpcp_util.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/inc/kpcp.h",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/inc/champsim.h",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/src/ooo_cpu.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/inc/dram_controller.h",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/ChampSim/src/main.cc",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/CRAD2019.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_pages/about.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/HPCA2017.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/TPDS2015.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/TC2019.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/TCAD2019.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/IPDPSW2012.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/ISPA2013-zhang.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/ISPA2013-shuai.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/NAS2013.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/ISLPED2013.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_pages/cv.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_pages/services.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_pages/service.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/PACT2014.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/IGSC2016.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/ICCD2017.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/DAC2019.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/BIBM2018.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/HPCC2019.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/PACT2019.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/ICCD2019-zhang.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/ICCD2019-lin.md",
+		"/Users/smartzmz/work/personal_web/mingzhe-zhang.github.io/_publications/ISPA2019.md",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/run_micro.sh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/arch/arm/insts/macromem.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/base/cprintf.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/configs/example/spec.py",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/build_opts/ALPHA",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/configs/common/Options.py",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/configs/common/CpuConfig.py",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/base/misc.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/configs/common/Simulation.py",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/try.txt",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/mem/port.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/cpu/o3/lsq_unit_impl.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/cpu/o3/lsq_unit.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/mem/port.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/mem/request.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/cpu/base.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/base/types.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/mem/abstract_mem.cc",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/run_single_hpca.sh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/run_multiple_1.sh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/mem/packet.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/src/cpu/o3/fetch_impl.hh",
+		"/Users/smartzmz/work/research_project/co-operate-project/anshuqian/mosaic-cache/workspace/mosaic-cache-gem5/gem5_nvmain2_zmz/gem5-stable/run_all.sh",
+		"/Users/smartzmz/Downloads/cpts_1012_bon/index.html",
+		"/Users/smartzmz/work/test.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "insider.h",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "c++",
+							"buffer_scroll_name": "c6345fdd",
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "SConstruct",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "python",
+							"buffer_scroll_name": "b52ee889",
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "insider-va2pa.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"run_champsim_mosaic.sh"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
