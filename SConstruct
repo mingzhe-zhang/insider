@@ -18,8 +18,6 @@ Export('AddSource')
 
 SConscript('./SConscript', variant_dir = 'build')
 
-env.Environment(CPPPATH = ['inc'])
-
 env.Clean('build/test', 'build')
 
-env.Program('build/test', src_list)
+env.Program('build/test', src_list, CPPPATH=['inc'])
