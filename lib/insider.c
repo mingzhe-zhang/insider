@@ -1,4 +1,4 @@
-#include "inc/insider.h"
+#include "insider.h"
 
 const int __endian_bit = 1;
 #define is_bigendian() ( (*(char*)&__endian_bit) == 0 )
