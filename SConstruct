@@ -15,6 +15,6 @@ def AddSource(file):
 Export('AddSource')
 
 
-SConscript('./SConscript', variant = 'build')
+SConscript('./SConscript', variant_dir = 'build')
 
 env.Program('test', src_list)
