@@ -10,6 +10,8 @@ env['BUILDROOT'] = 'build'
 
 
 src_list = []
+inc_list = []
+inc_list.append('inc')
 
 def AddSource(file):
 	src_list.append(File(file))
@@ -20,4 +22,4 @@ SConscript('./SConscript', variant_dir = 'build')
 
 env.Clean('build/test', 'build')
 
-env.Program('build/test', src_list, CPPPATH=['inc'])
+env.Program('build/test', src_list, CPPPATH=inc_list)
