@@ -1,4 +1,4 @@
-#include "../inc/insider.h"
+#include "insider.h"
 
 int main(int argc, char** argv)
 {
