@@ -17,4 +17,4 @@ Export('AddSource')
 
 SConscript('./SConscript', variant_dir = 'build')
 
-env.Program('test', src_list)
+env.Program('build/test', src_list)
