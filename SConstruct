@@ -22,4 +22,4 @@ SConscript('./SConscript', variant_dir = 'build')
 
 env.Clean('build/test', 'build')
 
-env.Program('build/test', src_list, CPPPATH=inc_list)
+env.Program('build/bin/test', src_list, CPPPATH=inc_list)
