@@ -11,10 +11,10 @@ env['BUILDROOT'] = 'build'
 src_list = []
 
 def AddSource(file):
-	src_list.append(File(src_list))
+	src_list.append(File(file))
 Export('AddSource')
 
 
-SConscript('SConscript', variant = 'build')
+SConscript('./SConscript', variant = 'build')
 
 env.Program('test', src_list)
