@@ -1,4 +1,4 @@
 Import('*')
 
-AddSource('test.c')
+AddSource('insider-test.c')
 AddSource('insider.c')
