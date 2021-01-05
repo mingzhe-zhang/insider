@@ -17,11 +17,13 @@ def AddSource(file):
 Export('AddSource')
 
 def AddInc(path):
-	inc_list.append(Path(path))
+	inc_list.append(path)
 Export('AddInc')
 
 SConscript('./SConscript', variant_dir = 'build')
 
+env.Environment(CPPPATH = inc_list)
+
 env.Clean('build/test', 'build')
 
-env.Program('build/test', src_list, CPPPATH=inc_list)
+env.Program('build/test', src_list)
